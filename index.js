@@ -102,12 +102,11 @@ class Registration {
     const alert = document.getElementById("alert");
     alert.textContent = message;
     alert.className = "alert alert-error";
-    alertContainer.style.display = "flex"; // Menampilkan pesan alert
+    alertContainer.style.display = "flex"; 
 
     setTimeout(() => {
-        alertContainer.style.display = "none"; // Sembunyikan pesan alert setelah beberapa detik
-    }, 3000); // Sembunyikan setelah 3 detik (3000 milidetik)
-    }
+        alertContainer.style.display = "none"; 
+    }, 3000); 
 
 }
 
