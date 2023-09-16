@@ -1,0 +1,61 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #registrationForm {
+    width: 500px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .text-red {
+    color: #D32F2F;
+  }
+
+  .bg-red {
+    color: whitesmoke;
+    background-color: black;
+  }
+
+  .alert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menggunakan tinggi viewport agar berada di tengah layar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
+}
+
+.alert {
+    background-color: #fff; /* Warna latar belakang pesan alert */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.alert-success {
+  background-color: #4CAF50; 
+  color: #fff; 
+}
+
+
+.alert-error {
+  background-color: rgb(249, 15, 15); 
+  color: #fff; 
+}
