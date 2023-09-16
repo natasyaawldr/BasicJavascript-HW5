@@ -107,6 +107,7 @@ class Registration {
     setTimeout(() => {
         alertContainer.style.display = "none"; 
     }, 3000); 
+    }
 
 }
 
